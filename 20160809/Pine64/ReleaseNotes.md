@@ -60,7 +60,7 @@ This tool is very simple. Just select the SD card and browse to pick image file 
 ```shell
     DISKPART\> list disk
 
-          Disk <span class="hljs-comment">###  Status         Size     Free     Dyn  Gpt
+          Disk ###  Status         Size     Free     Dyn  Gpt
           ----------------------------------------------------
           Disk 0    Online          931 GB      0 B
           Disk 1    Online         7456 MB  5120 KB        *
