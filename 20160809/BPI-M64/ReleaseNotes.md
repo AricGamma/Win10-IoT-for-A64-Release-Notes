@@ -9,20 +9,6 @@
 
 * * *
 
-## Directory
-
-*   [1. How to deploy](#1)
-
-    *   [1.1 Using Windows 10 IoT Dash Board](#1.1)
-
-    *   [1.2 Using IoTCoreImageHelper](#1.2)
-
-    *   [1.3 Using command line to call "dism.exe" directly](#1.3)
-
-*   [2. Known Issues](#2)
-
-
-* * *
 
 ## 1. [How to deploy](#1)
 
