@@ -52,6 +52,8 @@
 
 This tool is very simple. Just select the SD card and browse to pick image file to flash.
 
+![IoTCoreImageHelper](https://github.com/Leeway213/Win10-IoT-for-A64-Release-Notes/blob/master/Pic/IoTImageHelper.png)
+
 > **How to get this tool:** 
 >
 > Download the Raspberry Pi setup tool from [here](http://go.microsoft.com/fwlink/?LinkId=691711) and install. Then get the "IoTCoreImageHelper" tool under the "C:\Program Files (x86)\Microsoft IoT\" directory.
@@ -77,6 +79,9 @@ This tool is very simple. Just select the SD card and browse to pick image file 
     `Dism.exe /Apply-Image /ImageFile:[ffu_path] /ApplyDrive:\\.\PhysicalDrive[disk_number] /SkipPlatformCheck`
 
     > **Notice:** Please confirm the disk id seriously. It may damage your important data if flashing a wrong disk.
+
+
+![dism with diskpart](https://github.com/Leeway213/Win10-IoT-for-A64-Release-Notes/blob/master/Pic/dism_with_diskpart.png)
 
 ## 2. [Manage Windows 10 IoT Core](#2)
 
