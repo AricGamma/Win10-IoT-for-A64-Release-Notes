@@ -15,7 +15,13 @@
     There are 3 tools that can be used to flash the ffu to a Pine64 board:
 
 1.  Using [Windows 10 IoT Dash Board](https://iottools.blob.core.windows.net/iotdashboardpreview/setup.exe);
+
+![Windows 10 IoT Dashboard](https://github.com/Leeway213/Win10-IoT-for-A64-Release-Notes/blob/master/Pic/IoTDashboardMainPage.png)
+
 2.  Using "IoTCoreImageHelper" tool which is part of "IoT Core Kits";
+
+![IoTCoreImageHelper](https://github.com/Leeway213/Win10-IoT-for-A64-Release-Notes/blob/master/Pic/IoTImageHelper.png)
+
 3.  Using "dism.exe" in under "C:\Windows\System32".
     > **Notice:** In fact, both tool 1 and tool 2 depend on "dism.exe". They just provide a graphic user interface to call "dism.exe".
 
