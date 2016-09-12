@@ -16,15 +16,15 @@
 
 1.  Using [Windows 10 IoT Dash Board](https://iottools.blob.core.windows.net/iotdashboardpreview/setup.exe);
 
-    ![Windows 10 IoT Dashboard](https://github.com/Leeway213/Win10-IoT-for-A64-Release-Notes/blob/master/Pic/IoTDashboardMainPage.png)
+    ![Windows 10 IoT Dashboard](https://github.com/Leeway213/Win10-IoT-for-A64-Release-Notes/blob/master/Pic/IoTDashboardMainPage.png?raw=true)
 
 2.  Using "IoTCoreImageHelper" tool which is part of "IoT Core Kits";
 
-    ![IoTCoreImageHelper](https://github.com/Leeway213/Win10-IoT-for-A64-Release-Notes/blob/master/Pic/IoTImageHelper.png)
+    ![IoTCoreImageHelper](https://github.com/Leeway213/Win10-IoT-for-A64-Release-Notes/blob/master/Pic/IoTImageHelper.png?raw=true)
 
 3.  Using "dism.exe" in under "C:\Windows\System32".
 
-    ![dism tool in command line](https://github.com/Leeway213/Win10-IoT-for-A64-Release-Notes/blob/master/Pic/dism.png)    
+    ![dism tool in command line](https://github.com/Leeway213/Win10-IoT-for-A64-Release-Notes/blob/master/Pic/dism.png?raw=true)    
 
     > **Notice:** In fact, both tool 1 and tool 2 depend on "dism.exe". They just provide a graphic user interface to call "dism.exe".
 
@@ -32,19 +32,19 @@
 
 * Switch to "Set up a new device" tab;
 
-    ![Set up a new device](https://github.com/Leeway213/Win10-IoT-for-A64-Release-Notes/blob/master/Pic/Set_up_an_new_device.png)
+    ![Set up a new device](https://github.com/Leeway213/Win10-IoT-for-A64-Release-Notes/blob/master/Pic/Set_up_an_new_device.png?raw=true)
 
 * Select "Custom" option for "Device type". Click "browse" button to pick your ffu file and select a correct drive;
 
-    ![Browse ffu file](https://github.com/Leeway213/Win10-IoT-for-A64-Release-Notes/blob/master/Pic/Browse_ffu.png)
+    ![Browse ffu file](https://github.com/Leeway213/Win10-IoT-for-A64-Release-Notes/blob/master/Pic/Browse_ffu.png?raw=true)
 
 * Provide some provision information such as device name, password and wlan profile;
 
-    ![Set provision information](https://github.com/Leeway213/Win10-IoT-for-A64-Release-Notes/blob/master/Pic/Set_password%26WLAN_provision.png)
+    ![Set provision information](https://github.com/Leeway213/Win10-IoT-for-A64-Release-Notes/blob/master/Pic/Set_password%26WLAN_provision.png?raw=true)
 
 * Check the licence item box to accept the software licence and install.
 
-    ![Check licence item box and install](https://github.com/Leeway213/Win10-IoT-for-A64-Release-Notes/blob/master/Pic/Flash_processing.png)
+    ![Check licence item box and install](https://github.com/Leeway213/Win10-IoT-for-A64-Release-Notes/blob/master/Pic/Flash_processing.png?raw=true)
 
 > **PS:** After the progress finished, an error message "Failed to write provisioning file to microSD card" will be shown. The reason is that "IoT Dash Board" cannot write the provision configuration(device name, password & wlan profile) into microSD card. We are dealing with this issue. Please just ignore. Device name and password will be set to default.
 
@@ -52,7 +52,7 @@
 
 This tool is very simple. Just select the SD card and browse to pick image file to flash.
 
-![IoTCoreImageHelper](https://github.com/Leeway213/Win10-IoT-for-A64-Release-Notes/blob/master/Pic/IoTImageHelper.png)
+![IoTCoreImageHelper](https://github.com/Leeway213/Win10-IoT-for-A64-Release-Notes/blob/master/Pic/IoTImageHelper.png?raw=true)
 
 > **How to get this tool:** 
 >
@@ -81,7 +81,7 @@ This tool is very simple. Just select the SD card and browse to pick image file 
     > **Notice:** Please confirm the disk id seriously. It may damage your important data if flashing a wrong disk.
 
 
-![dism with diskpart](https://github.com/Leeway213/Win10-IoT-for-A64-Release-Notes/blob/master/Pic/dism_with_diskpart.png)
+![dism with diskpart](https://github.com/Leeway213/Win10-IoT-for-A64-Release-Notes/blob/master/Pic/dism_with_diskpart.png?raw=true)
 
 ## 2. [Manage Windows 10 IoT Core](#2)
 
