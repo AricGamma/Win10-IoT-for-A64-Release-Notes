@@ -2,6 +2,8 @@
 
 ---
 
+**First of all, you need to mount your device(such as emmc or sd card) as a mass storage. If wanna flash into an emmc or you cannot get an SD card reader, you need to flash a UEFI image refered to this [document](https://github.com/Leeway213/Win10-IoT-for-A64-Release-Notes/blob/master/doc/How%20to%20flash%20UEFI%20image.md).**
+
 There are 3 tools that can be used to flash the ffu to a Pine64 board:
 
 1.  Using [Windows 10 IoT Dash Board](https://iottools.blob.core.windows.net/iotdashboardpreview/setup.exe);

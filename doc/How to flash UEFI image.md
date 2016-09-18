@@ -6,6 +6,7 @@ The Unified Extensible Firmware Interface (UEFI]) is a specification that define
 In addition, a UEFI image is also regarded as a powerful replacement of u-boot run on an ARM architecture platform. It's a universal solution to bring up all kinds of OS compared with u-boot.
 Allwinner UEFI Image is a universal pre-boot solution running on Allwinner ARM SoCs based on EDK2 open source project.
 
+
 ## How to flash a UEFI image
 
 Firstly, you need install `PhoenixSuit` on a your PC. Here we don't provice a download link, you can search "PhoenixSuit" by google or other web search engines. 
